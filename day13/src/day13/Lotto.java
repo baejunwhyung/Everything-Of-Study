@@ -13,10 +13,10 @@ public class Lotto {
 		int count=0;
 		// 로또배열에 6개의 랜덤값을 저장
 		for(int i=0;i<6;i++){
-			lottoAr[i]=random.nextInt();//0~44 > 1~45
+			lottoAr[i]=random.nextInt(45)+1;//0~44 > 1~45
 		}
 		//bonus=random
-		bonus = random.nextInt(45) +1;
+		bonus = random.nextInt(45)+1;
 		
 		//사용자에게 6개의 값과 보너스를 입력받기
 		System.out.print("숫자 6개 입력:");
