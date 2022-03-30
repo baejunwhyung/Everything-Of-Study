@@ -7,9 +7,9 @@ public class Cafe {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int count=0;
+		int total=0;
 		//주문은 총5개까지 가능
 		String orderList[]= new String[5];
-		int total=0;
 		while(true) {
 			System.out.println("어서오세요 Mr.Jun_Cafe입니다~");
 			System.out.println("1. 주문하기");
@@ -61,7 +61,7 @@ public class Cafe {
 				}
 				System.out.print("취소할 메뉴번호:");
 				int cancelNum=sc.nextInt();
-				if(1<cancelNum && cancelNum<=count) {
+				if(1<=cancelNum && cancelNum<=count) {
 					String delMenu= orderList[cancelNum-1];
 					System.out.println(delMenu+"메뉴 삭제!");
 					for(int i=cancelNum-1;i<count;i++) {
