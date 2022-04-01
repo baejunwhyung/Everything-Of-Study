@@ -6,6 +6,7 @@ public class SumEx {
 		sum(10,20);
 		sum(3.14,1.23);
 		sum(10,20,30);
+		
 	}
 	//매서드의 매개변수 타입에 변화(오버로딩)
 	static void sum(int x,int y) {
