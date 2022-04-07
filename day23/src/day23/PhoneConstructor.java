@@ -27,4 +27,4 @@ class Iphone{
 		System.out.println("color:"+color);
 		System.out.println("capacity"+capacity);
 	}
-}
+} 
