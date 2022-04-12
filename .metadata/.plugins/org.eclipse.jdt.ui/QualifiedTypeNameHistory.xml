@@ -4,4 +4,6 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="day28.OuterClass.Inner"/>
+    <fullyQualifiedTypeName name="day28.OuterClass.StaticInner"/>
 </qualifiedTypeNameHistroy>
