@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="day28.OuterClass.Inner"/>
     <fullyQualifiedTypeName name="day28.OuterClass.StaticInner"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 </qualifiedTypeNameHistroy>
