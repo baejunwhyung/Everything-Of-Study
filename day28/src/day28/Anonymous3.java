@@ -11,7 +11,7 @@ public class Anonymous3 {
 				
 			
 			}
-			}; 
+		}; 
 			it.f1();
 
 }
