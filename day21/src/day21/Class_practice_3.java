@@ -27,7 +27,7 @@ public class Class_practice_3 {
 	}
 
 }
-
+ 
 class Car{
 	static int wheel=4; //클래스변수
 	int speed; //인스턴스 변수
