@@ -7,4 +7,7 @@
     <fullyQualifiedTypeName name="day28.OuterClass.Inner"/>
     <fullyQualifiedTypeName name="day28.OuterClass.StaticInner"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
