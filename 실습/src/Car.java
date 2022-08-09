@@ -46,10 +46,8 @@ public class Car {
                         System.out.print("입력:");
                         gasolineNum = sc.nextInt();
                         total += pr.gasolinePrice * gasolineNum;
-                    }
-
-
-                    if (gasolineNum >= 6) {
+                        System.out.println(total + "원 입니다.");
+                    } else {
                         System.out.println("                ");
                         System.out.println("다시 입력 해주세요.");
                         System.out.println("                ");
@@ -78,13 +76,13 @@ public class Car {
                     } else if (diselNum == 4) {
                         total += pr.diselPrice * 4;
                         System.out.println(total + "원 입니다.");
-                    }
-                    else if(diselNum == 5){
+                    } else if (diselNum == 5) {
                         System.out.println("몇 L 주유 하시겠습니까?");
                         System.out.print("입력:");
                         total += pr.diselPrice * diselNum;
-                    }
-                    if (diselNum >= 6) {
+                        System.out.println(total + "원 입니다.");
+
+                    } else {
                         System.out.println("                ");
                         System.out.println("다시 입력 해주세요.");
                         System.out.println("                ");
@@ -114,24 +112,23 @@ public class Car {
                     } else if (premiumNum == 4) {
                         total += pr.premiumGasoline * 4;
                         System.out.println(total + "원 입니다.");
-                    }
-                    else if (premiumNum == 5) {
+                    } else if (premiumNum == 5) {
                         System.out.println("몇 L 주유 하시겠습니까?");
                         System.out.print("입력:");
                         premiumNum = sc.nextInt();
                         total += pr.premiumGasoline * premiumNum;
-                        System.out.println(total+"원 입니다.");
-                    }
-
-                    if (premiumNum >= 6) {
+                        System.out.println(total + "원 입니다.");
+                    } else {
                         System.out.println("                ");
                         System.out.println("다시 입력 해주세요.");
                         System.out.println("                ");
                     }
+
                 }
 
             } catch (InputMismatchException e) {
                 System.out.println(e + "정수가 아닙니다.");
+
 
             }
 
@@ -177,6 +174,6 @@ class totalMoney {
     }
 
     public int getTotal() {
-        return getTotal();
+        return total;
     }
 }

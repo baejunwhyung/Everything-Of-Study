@@ -15,12 +15,12 @@ public class 섯다 {
         System.out.println("플레이어 두 카드 합의 1의자리: "+ptt);
         afc=(int) (Math.random()*12)+1;
         System.out.println("AI의 첫번 째 카드: "+ "" +afc);
-        py.setfirstCard(afc);
+        ai.setFirstCard(afc);
         asc=(int)(Math.random()*12)+1;
         System.out.println("AI의 두번 째 카드: "+ "" +asc);
-        py.setsecondtCard(asc);
+        ai.setsecondtCard(asc);
         att=(afc+asc)%10;
-        py.settotalCard(att);
+        ai.settotalCard(att);
         System.out.println("AI의 두 카드 합의 1의자리: "+att);
 
         if(ptt>att){
